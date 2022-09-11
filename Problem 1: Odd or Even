@@ -1,0 +1,8 @@
+#Find a number if it is even or odd
+T=int(input()) #for T times input in a row
+for i in range(T): #loop
+	n=int(input())
+	if(n % 2) ==0:
+		print('Even')
+	else:
+		print('Odd')
